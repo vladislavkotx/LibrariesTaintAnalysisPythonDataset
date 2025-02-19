@@ -4,6 +4,6 @@
 * One source `py` file
 * `expected.txt` file describing expected reported defects
 
-### Basic projects consist of:
-* `project` folder with project containing several defects in it
-* `expected.txt` file with expected reported lines
+### Basic and real projects consist of:
+* `project` source folder
+* `expected.txt` file describing expected reported defects
