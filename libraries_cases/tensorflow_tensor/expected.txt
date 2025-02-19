@@ -1,0 +1,3 @@
+tensorflow_tensor_test.py:8 Command injection
+tensorflow_tensor_test.py:12 Command injection
+tensorflow_tensor_test.py:21 Command injection

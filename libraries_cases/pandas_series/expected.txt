@@ -1,0 +1,4 @@
+pandas_series_test.py:8 Command injection
+pandas_series_test.py:13 Command injection
+pandas_series_test.py:18 Command injection
+pandas_series_test.py:53 Command injection

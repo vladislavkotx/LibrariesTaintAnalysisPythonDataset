@@ -1,0 +1,4 @@
+pytorch_tensor_test.py:8 Command injection
+pytorch_tensor_test.py:12 Command injection
+pytorch_tensor_test.py:36 Command injection
+pytorch_tensor_test.py:37 Command injection
