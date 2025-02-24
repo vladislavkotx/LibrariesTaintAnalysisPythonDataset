@@ -1,0 +1,10 @@
+micropython-master/tests/run-tests.py:1190 Command injection
+micropython-master/tests/run-tests.py:416 Command injection
+micropython-master/shared/memzip/make-memzip.py:25 Command injection
+micropython-master/tools/mpremote/mpremote/commands.py:392 Command injection
+micropython-master/tests/run-tests.py:397 Command injection
+micropython-master/tools/verifygitlog.py:45 Command injection
+micropython-master/tests/run-tests.py:449 Command injection
+micropython-master/py/makeversionhdr.py:58 Command injection
+micropython-master/py/makeversionhdr.py:33 Command injection
+micropython-master/mpy-cross/mpy_cross/__init__.py:150 Command injection

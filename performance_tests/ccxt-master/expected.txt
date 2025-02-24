@@ -1,0 +1,1 @@
+ccxt-master/python/qa.py:8 Command injection
