@@ -1,0 +1,9 @@
+graal-master/truffle/mx.truffle/mx_truffle.py:896 Format information leak
+graal-master/compiler/mx.compiler/mx_compiler.py:1118 Format information leak
+graal-master/compiler/mx.compiler/mx_compiler.py:1105 Format information leak
+graal-master/truffle/mx.truffle/mx_truffle.py:1243 Format information leak
+graal-master/sdk/mx.sdk/mx_sdk_vm_impl.py:4385 Format information leak
+graal-master/sdk/mx.sdk/mx_sdk_vm.py:734 Format information leak
+graal-master/sdk/mx.sdk/mx_sdk_vm_impl.py:519 Format information leak
+graal-master/substratevm/debug/gdbpy/gdb-debughelpers.py:1576 Code injection
+graal-master/sdk/mx.sdk/mx_sdk_shaded.py:346 Path manipulation

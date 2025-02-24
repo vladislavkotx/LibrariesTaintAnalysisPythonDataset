@@ -1,0 +1,1 @@
+python-telegram-bot-master/tests/test_telegramobject.py:425 Deserialization injection
