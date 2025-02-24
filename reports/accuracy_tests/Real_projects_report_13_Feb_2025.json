@@ -1,0 +1,68 @@
+{
+  "TestPack": "real_projects",
+  "TotalCases": 4,
+  "Time,sec": 51.017,
+  "MaxMemory,Mb": 0,
+  "FP,%": 50.0,
+  "FN,%": 0.0,
+  "Passed,%": 50.0,
+  "Defects N": 4,
+  "PackCases": [
+    {
+      "Case": "accuracy_tests/real_projects/OpenHands-main-cleared",
+      "Time,sec": 18.445,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 100.0,
+      "FN,%": 0.0,
+      "Passed,%": 0.0,
+      "Defects N": 1,
+      "Defects": [
+        "file:/accuracy_tests/real_projects/OpenHands-main-cleared/openhands_runtime/impl/local/local_runtime.py:227 Command injection\n"
+      ],
+      "Files": 48,
+      "LOC": 7695
+    },
+    {
+      "Case": "accuracy_tests/real_projects/OpenHands-main-orig",
+      "Time,sec": 18.475,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 0.0,
+      "FN,%": 0.0,
+      "Passed,%": 100.0,
+      "Defects N": 1,
+      "Defects": [
+        "file:/accuracy_tests/real_projects/OpenHands-main-orig/openhands_runtime/impl/local/local_runtime.py:226 Command injection\n"
+      ],
+      "Files": 48,
+      "LOC": 7694
+    },
+    {
+      "Case": "accuracy_tests/real_projects/poj_src_cleared",
+      "Time,sec": 7.046,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 100.0,
+      "FN,%": 0.0,
+      "Passed,%": 0.0,
+      "Defects N": 1,
+      "Defects": [
+        "file:/accuracy_tests/real_projects/poj_src_cleared/run.py:22 Command injection\n"
+      ],
+      "Files": 1,
+      "LOC": 25
+    },
+    {
+      "Case": "accuracy_tests/real_projects/poj_src_orig",
+      "Time,sec": 7.051,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 0.0,
+      "FN,%": 0.0,
+      "Passed,%": 100.0,
+      "Defects N": 1,
+      "Defects": [
+        "file:/accuracy_tests/real_projects/poj_src_orig/run.py:16 Command injection\n"
+      ],
+      "Files": 1,
+      "LOC": 19
+    }
+  ]
+}

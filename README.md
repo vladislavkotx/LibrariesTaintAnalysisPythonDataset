@@ -1,4 +1,4 @@
-### This repository provides a python dataset containing cases where tainted data flows through library or built-in call invocations
+## This repository provides a python dataset containing cases where tainted data flows through library or built-in call invocations
 
 ### Accuracy basic and libraries cases consist of:
 * One source `py` file
@@ -11,3 +11,5 @@
 ### Performance cases consist of:
 * project source folder
 * `expected.txt` file describing expected reported defects
+
+### Reports contents considered well self-explanatory 

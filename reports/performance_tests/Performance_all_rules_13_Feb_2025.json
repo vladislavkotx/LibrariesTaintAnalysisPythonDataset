@@ -1,0 +1,60 @@
+{
+  "TestPack": "performance_all_rules",
+  "TotalCases": 3,
+  "Time,sec": 491.768,
+  "MaxMemory,Mb": 0,
+  "FP,%": 0.0,
+  "FN,%": 0.0,
+  "Passed,%": 100.0,
+  "Defects N": 10,
+  "PackCases": [
+    {
+      "Case": "performance_tests/graal-master",
+      "Time,sec": 162.852,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 0.0,
+      "FN,%": 0.0,
+      "Passed,%": 100.0,
+      "Defects N": 9,
+      "Defects": [
+        "file:/performance_tests/graal-master/graal-master/truffle/mx.truffle/mx_truffle.py:896 Format information leak\n",
+        "file:/performance_tests/graal-master/graal-master/compiler/mx.compiler/mx_compiler.py:1118 Format information leak\n",
+        "file:/performance_tests/graal-master/graal-master/compiler/mx.compiler/mx_compiler.py:1105 Format information leak\n",
+        "file:/performance_tests/graal-master/graal-master/truffle/mx.truffle/mx_truffle.py:1243 Format information leak\n",
+        "file:/performance_tests/graal-master/graal-master/sdk/mx.sdk/mx_sdk_vm_impl.py:4385 Format information leak\n",
+        "file:/performance_tests/graal-master/graal-master/sdk/mx.sdk/mx_sdk_vm.py:734 Format information leak\n",
+        "file:/performance_tests/graal-master/graal-master/sdk/mx.sdk/mx_sdk_vm_impl.py:519 Format information leak\n",
+        "file:/performance_tests/graal-master/graal-master/substratevm/debug/gdbpy/gdb-debughelpers.py:1576 Code injection\n",
+        "file:/performance_tests/graal-master/graal-master/sdk/mx.sdk/mx_sdk_shaded.py:346 Path manipulation\n"
+      ],
+      "Files": 68,
+      "LOC": 48245
+    },
+    {
+      "Case": "performance_tests/django-rest-framework-master",
+      "Time,sec": 84.821,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 0.0,
+      "FN,%": 0.0,
+      "Passed,%": 100.0,
+      "Defects N": 0,
+      "Defects": [],
+      "Files": 159,
+      "LOC": 42654
+    },
+    {
+      "Case": "performance_tests/python-telegram-bot-master",
+      "Time,sec": 244.096,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 0.0,
+      "FN,%": 0.0,
+      "Passed,%": 100.0,
+      "Defects N": 1,
+      "Defects": [
+        "file:/performance_tests/python-telegram-bot-master/python-telegram-bot-master/tests/test_telegramobject.py:425 Deserialization injection\n"
+      ],
+      "Files": 460,
+      "LOC": 140796
+    }
+  ]
+}

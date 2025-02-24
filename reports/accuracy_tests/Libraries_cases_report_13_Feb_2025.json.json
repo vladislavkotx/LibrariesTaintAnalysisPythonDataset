@@ -1,0 +1,96 @@
+{
+  "TestPack": "libraries_cases",
+  "TotalCases": 4,
+  "Time,sec": 43.939,
+  "MaxMemory,Mb": 0,
+  "FP,%": 56.25,
+  "FN,%": 0.0,
+  "Passed,%": 43.75,
+  "Defects N": 32,
+  "PackCases": [
+    {
+      "Case": "accuracy_tests/libraries_cases/pandas_dataframe",
+      "Time,sec": 19.187,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 66.667,
+      "FN,%": 0.0,
+      "Passed,%": 33.333,
+      "Defects N": 9,
+      "Defects": [
+        "file:/accuracy_tests/libraries_cases/pandas_dataframe/pandas_dataframe_test.py:80 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_dataframe/pandas_dataframe_test.py:44 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_dataframe/pandas_dataframe_test.py:35 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_dataframe/pandas_dataframe_test.py:30 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_dataframe/pandas_dataframe_test.py:21 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_dataframe/pandas_dataframe_test.py:53 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_dataframe/pandas_dataframe_test.py:62 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_dataframe/pandas_dataframe_test.py:71 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_dataframe/pandas_dataframe_test.py:12 Command injection\n"
+      ],
+      "Files": 1,
+      "LOC": 80
+    },
+    {
+      "Case": "accuracy_tests/libraries_cases/pandas_series",
+      "Time,sec": 8.506,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 60.0,
+      "FN,%": 0.0,
+      "Passed,%": 40.0,
+      "Defects N": 10,
+      "Defects": [
+        "file:/accuracy_tests/libraries_cases/pandas_series/pandas_series_test.py:48 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_series/pandas_series_test.py:13 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_series/pandas_series_test.py:43 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_series/pandas_series_test.py:38 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_series/pandas_series_test.py:18 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_series/pandas_series_test.py:33 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_series/pandas_series_test.py:23 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_series/pandas_series_test.py:28 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_series/pandas_series_test.py:8 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pandas_series/pandas_series_test.py:53 Command injection\n"
+      ],
+      "Files": 1,
+      "LOC": 53
+    },
+    {
+      "Case": "accuracy_tests/libraries_cases/pytorch_tensor",
+      "Time,sec": 8.631,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 50.0,
+      "FN,%": 0.0,
+      "Passed,%": 50.0,
+      "Defects N": 8,
+      "Defects": [
+        "file:/accuracy_tests/libraries_cases/pytorch_tensor/pytorch_tensor_test.py:36 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pytorch_tensor/pytorch_tensor_test.py:37 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pytorch_tensor/pytorch_tensor_test.py:16 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pytorch_tensor/pytorch_tensor_test.py:8 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pytorch_tensor/pytorch_tensor_test.py:29 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pytorch_tensor/pytorch_tensor_test.py:20 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pytorch_tensor/pytorch_tensor_test.py:24 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/pytorch_tensor/pytorch_tensor_test.py:12 Command injection\n"
+      ],
+      "Files": 1,
+      "LOC": 37
+    },
+    {
+      "Case": "accuracy_tests/libraries_cases/tensorflow_tensor",
+      "Time,sec": 7.615,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 40.0,
+      "FN,%": 0.0,
+      "Passed,%": 60.0,
+      "Defects N": 5,
+      "Defects": [
+        "file:/accuracy_tests/libraries_cases/tensorflow_tensor/tensorflow_tensor_test.py:26 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/tensorflow_tensor/tensorflow_tensor_test.py:12 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/tensorflow_tensor/tensorflow_tensor_test.py:21 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/tensorflow_tensor/tensorflow_tensor_test.py:17 Command injection\n",
+        "file:/accuracy_tests/libraries_cases/tensorflow_tensor/tensorflow_tensor_test.py:8 Command injection\n"
+      ],
+      "Files": 1,
+      "LOC": 27
+    }
+  ]
+}

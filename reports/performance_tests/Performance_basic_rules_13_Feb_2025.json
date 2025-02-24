@@ -1,0 +1,49 @@
+{
+  "TestPack": "performance_basic_rules",
+  "TotalCases": 2,
+  "Time,sec": 1294.045,
+  "MaxMemory,Mb": 0,
+  "FP,%": 0.0,
+  "FN,%": 0.0,
+  "Passed,%": 100.0,
+  "Defects N": 11,
+  "PackCases": [
+    {
+      "Case": "performance_tests/micropython-master",
+      "Time,sec": 250.076,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 0.0,
+      "FN,%": 0.0,
+      "Passed,%": 100.0,
+      "Defects N": 10,
+      "Defects": [
+        "file:/performance_tests/micropython-master/micropython-master/tests/run-tests.py:1190 Command injection\n",
+        "file:/performance_tests/micropython-master/micropython-master/tests/run-tests.py:416 Command injection\n",
+        "file:/performance_tests/micropython-master/micropython-master/shared/memzip/make-memzip.py:25 Command injection\n",
+        "file:/performance_tests/micropython-master/micropython-master/tools/mpremote/mpremote/commands.py:392 Command injection\n",
+        "file:/performance_tests/micropython-master/micropython-master/tests/run-tests.py:397 Command injection\n",
+        "file:/performance_tests/micropython-master/micropython-master/tools/verifygitlog.py:45 Command injection\n",
+        "file:/performance_tests/micropython-master/micropython-master/tests/run-tests.py:449 Command injection\n",
+        "file:/performance_tests/micropython-master/micropython-master/py/makeversionhdr.py:58 Command injection\n",
+        "file:/performance_tests/micropython-master/micropython-master/py/makeversionhdr.py:33 Command injection\n",
+        "file:/performance_tests/micropython-master/micropython-master/mpy-cross/mpy_cross/__init__.py:150 Command injection\n"
+      ],
+      "Files": 1683,
+      "LOC": 83759
+    },
+    {
+      "Case": "performance_tests/ccxt-master",
+      "Time,sec": 1043.968,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 0.0,
+      "FN,%": 0.0,
+      "Passed,%": 100.0,
+      "Defects N": 1,
+      "Defects": [
+        "file:/performance_tests/ccxt-master/ccxt-master/python/qa.py:8 Command injection\n"
+      ],
+      "Files": 1093,
+      "LOC": 713190
+    }
+  ]
+}

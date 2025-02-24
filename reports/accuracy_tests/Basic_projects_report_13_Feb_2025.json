@@ -1,0 +1,98 @@
+{
+  "TestPack": "basic_projects",
+  "TotalCases": 5,
+  "Time,sec": 37.212,
+  "MaxMemory,Mb": 0,
+  "FP,%": 61.905,
+  "FN,%": 0.0,
+  "Passed,%": 38.095,
+  "Defects N": 21,
+  "PackCases": [
+    {
+      "Case": "accuracy_tests/basic_projects/dict_proj",
+      "Time,sec": 7.513,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 66.667,
+      "FN,%": 0.0,
+      "Passed,%": 33.333,
+      "Defects N": 3,
+      "Defects": [
+        "file:/accuracy_tests/basic_projects/dict_proj/project/utils.py:11 Command injection\n",
+        "file:/accuracy_tests/basic_projects/dict_proj/project/utils.py:16 Command injection\n",
+        "file:/accuracy_tests/basic_projects/dict_proj/project/utils.py:6 Command injection\n"
+      ],
+      "Files": 4,
+      "LOC": 70
+    },
+    {
+      "Case": "accuracy_tests/basic_projects/list_proj",
+      "Time,sec": 7.51,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 80.0,
+      "FN,%": 0.0,
+      "Passed,%": 20.0,
+      "Defects N": 5,
+      "Defects": [
+        "file:/accuracy_tests/basic_projects/list_proj/project/utils.py:21 Command injection\n",
+        "file:/accuracy_tests/basic_projects/list_proj/project/utils.py:16 Command injection\n",
+        "file:/accuracy_tests/basic_projects/list_proj/project/utils.py:6 Command injection\n",
+        "file:/accuracy_tests/basic_projects/list_proj/project/utils.py:26 Command injection\n",
+        "file:/accuracy_tests/basic_projects/list_proj/project/utils.py:11 Command injection\n"
+      ],
+      "Files": 4,
+      "LOC": 97
+    },
+    {
+      "Case": "accuracy_tests/basic_projects/numpy_proj",
+      "Time,sec": 7.417,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 50.0,
+      "FN,%": 0.0,
+      "Passed,%": 50.0,
+      "Defects N": 4,
+      "Defects": [
+        "file:/accuracy_tests/basic_projects/numpy_proj/project/utils.py:6 Command injection\n",
+        "file:/accuracy_tests/basic_projects/numpy_proj/project/utils.py:21 Command injection\n",
+        "file:/accuracy_tests/basic_projects/numpy_proj/project/utils.py:16 Command injection\n",
+        "file:/accuracy_tests/basic_projects/numpy_proj/project/utils.py:11 Command injection\n"
+      ],
+      "Files": 4,
+      "LOC": 89
+    },
+    {
+      "Case": "accuracy_tests/basic_projects/set_proj",
+      "Time,sec": 7.426,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 75.0,
+      "FN,%": 0.0,
+      "Passed,%": 25.0,
+      "Defects N": 4,
+      "Defects": [
+        "file:/accuracy_tests/basic_projects/set_proj/project/utils.py:21 Command injection\n",
+        "file:/accuracy_tests/basic_projects/set_proj/project/utils.py:6 Command injection\n",
+        "file:/accuracy_tests/basic_projects/set_proj/project/utils.py:16 Command injection\n",
+        "file:/accuracy_tests/basic_projects/set_proj/project/utils.py:11 Command injection\n"
+      ],
+      "Files": 4,
+      "LOC": 91
+    },
+    {
+      "Case": "accuracy_tests/basic_projects/tuple_proj",
+      "Time,sec": 7.344,
+      "MaxMemory,Mb": 0.0,
+      "FP,%": 40.0,
+      "FN,%": 0.0,
+      "Passed,%": 60.0,
+      "Defects N": 5,
+      "Defects": [
+        "file:/accuracy_tests/basic_projects/tuple_proj/project/utils.py:21 Command injection\n",
+        "file:/accuracy_tests/basic_projects/tuple_proj/project/utils.py:11 Command injection\n",
+        "file:/accuracy_tests/basic_projects/tuple_proj/project/utils.py:26 Command injection\n",
+        "file:/accuracy_tests/basic_projects/tuple_proj/project/utils.py:6 Command injection\n",
+        "file:/accuracy_tests/basic_projects/tuple_proj/project/utils.py:16 Command injection\n"
+      ],
+      "Files": 4,
+      "LOC": 94
+    }
+  ]
+}
