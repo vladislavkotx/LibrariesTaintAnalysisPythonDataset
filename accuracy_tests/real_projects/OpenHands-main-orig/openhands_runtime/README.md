@@ -9,7 +9,7 @@ You can learn more about how the runtime works in the [Docker Runtime](https://d
 
 ### 1. base.py
 
-The `base.py` file defines the `Runtime` class, which serves as the primary [interface](./base.py) for agent interactions with the external environment. It handles various operations including:
+The `base.py` file defines the `Runtime` class, which serves as the primary [interface](base.py) for agent interactions with the external environment. It handles various operations including:
 
 - Bash sandbox execution
 - Browser interactions

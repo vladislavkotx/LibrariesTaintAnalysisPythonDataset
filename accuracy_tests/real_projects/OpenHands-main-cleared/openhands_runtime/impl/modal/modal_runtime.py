@@ -181,7 +181,7 @@ class ModalRuntime(ActionExecutionClient):
                 path=os.path.join(build_folder, 'Dockerfile'),
                 context_mount=modal.Mount.from_local_dir(
                     local_path=build_folder,
-                    remote_path='.',  # to current WORKDIR
+                    remote_path='',  # to current WORKDIR
                 ),
             )
         else:
