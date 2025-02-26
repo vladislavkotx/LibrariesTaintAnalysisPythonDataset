@@ -1,0 +1,22 @@
+{
+  "TestPack": "django-rest-framework-master",
+  "TotalCases": 1,
+  "Time,sec": 72.53,
+  "FP,%": 0.0,
+  "FN,%": 0.0,
+  "Passed,%": 100.0,
+  "Defects N": 0,
+  "PackCases": [
+    {
+      "Case": "performance_tests/django-rest-framework-master",
+      "Time,sec": 72.53,
+      "FP,%": 0.0,
+      "FN,%": 0.0,
+      "Passed,%": 100.0,
+      "Defects N": 0,
+      "Defects": [],
+      "Files": 159,
+      "LOC": 42654
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "TestPack": "python-telegram-bot-master",
+  "TotalCases": 1,
+  "Time,sec": 244.096,
+  "FP,%": 0.0,
+  "FN,%": 0.0,
+  "Passed,%": 100.0,
+  "Defects N": 1,
+  "PackCases": [
+    {
+      "Case": "performance_tests/python-telegram-bot-master",
+      "Time,sec": 244.096,
+      "FP,%": 0.0,
+      "FN,%": 0.0,
+      "Passed,%": 100.0,
+      "Defects N": 1,
+      "Defects": [
+        "file:/performance_tests/python-telegram-bot-master/python-telegram-bot-master/tests/test_telegramobject.py:425 Deserialization injection\n"
+      ],
+      "Files": 460,
+      "LOC": 140796
+    }
+  ]
+}

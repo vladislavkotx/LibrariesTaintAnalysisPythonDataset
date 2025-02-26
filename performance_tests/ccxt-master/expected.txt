@@ -1,1 +1,11 @@
+ccxt-master/python/ccxt/static_dependencies/ethereum/abi/decoding.py:521 Format information leak
+ccxt-master/examples/py/arbitrage-pairs.py:120 Format information leak
+ccxt-master/python/ccxt/static_dependencies/lark/lark.py:342 Deserialization injection
+ccxt-master/python/ccxt/static_dependencies/ethereum/abi/decoding.py:307 Format information leak
+ccxt-master/python/ccxt/static_dependencies/lark/tools/nearley.py:125 Path manipulation
 ccxt-master/python/qa.py:8 Command injection
+ccxt-master/python/ccxt/static_dependencies/lark/lark.py:340 Deserialization injection
+ccxt-master/python/ccxt/static_dependencies/sympy/external/importtools.py:21 Code injection
+ccxt-master/python/ccxt/static_dependencies/ethereum/abi/decoding.py:531 Format information leak
+ccxt-master/python/ccxt/static_dependencies/lark/lark.py:528 Deserialization injection
+ccxt-master/examples/py/arbitrage-pairs.py:128 Format information leak
