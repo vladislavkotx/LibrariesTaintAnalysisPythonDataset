@@ -2,7 +2,6 @@
   "TestPack": "performance_all_rules",
   "TotalCases": 3,
   "Time,sec": 491.768,
-  "MaxMemory,Mb": 0,
   "FP,%": 0.0,
   "FN,%": 0.0,
   "Passed,%": 100.0,
@@ -11,7 +10,6 @@
     {
       "Case": "performance_tests/graal-master",
       "Time,sec": 162.852,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 0.0,
       "FN,%": 0.0,
       "Passed,%": 100.0,
@@ -33,7 +31,6 @@
     {
       "Case": "performance_tests/django-rest-framework-master",
       "Time,sec": 84.821,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 0.0,
       "FN,%": 0.0,
       "Passed,%": 100.0,
@@ -45,7 +42,6 @@
     {
       "Case": "performance_tests/python-telegram-bot-master",
       "Time,sec": 244.096,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 0.0,
       "FN,%": 0.0,
       "Passed,%": 100.0,

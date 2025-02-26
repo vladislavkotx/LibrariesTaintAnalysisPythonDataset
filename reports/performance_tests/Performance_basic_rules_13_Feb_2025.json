@@ -2,7 +2,6 @@
   "TestPack": "performance_basic_rules",
   "TotalCases": 2,
   "Time,sec": 1294.045,
-  "MaxMemory,Mb": 0,
   "FP,%": 0.0,
   "FN,%": 0.0,
   "Passed,%": 100.0,
@@ -11,7 +10,6 @@
     {
       "Case": "performance_tests/micropython-master",
       "Time,sec": 250.076,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 0.0,
       "FN,%": 0.0,
       "Passed,%": 100.0,
@@ -34,7 +32,6 @@
     {
       "Case": "performance_tests/ccxt-master",
       "Time,sec": 1043.968,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 0.0,
       "FN,%": 0.0,
       "Passed,%": 100.0,
