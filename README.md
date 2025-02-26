@@ -47,7 +47,7 @@ PackCases: [           List of pack cases
     FN,%                     Rate of defects we expect to report, but we do not report them in test case
     Passed,%                 Rate of defects we expect to report and we report them in test case
     Defects N                Amount of reported defects in test case
-    Defects: [               List of reported defects in test case  for Typescript (node.js 16)
+    Defects: [               List of reported defects in test case
       path/to/file.py:(FileLineNumber) (Defect description)
     ]
     Files                    Amount of analyzed files in test case
