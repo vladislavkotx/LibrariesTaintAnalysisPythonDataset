@@ -1,15 +1,33 @@
-## This repository provides a python dataset containing cases where tainted data flows through library or built-in call invocations
+# Taint Analysis Evaluation Data
 
-### Accuracy basic and libraries cases consist of:
-* One source `py` file
-* `expected.txt` file describing expected reported defects
+This repository provides a python dataset containing cases where tainted data flows through library or built-in call invocations
 
-### Accuracy basic and real projects consist of:
-* project source folder
-* `expected.txt` file describing expected reported defects
+## Repository structure
 
-### Performance cases consist of:
-* project source folder
-* `expected.txt` file describing expected reported defects
+### `\accuracy_tests` folder
 
-### Reports contents considered well self-explanatory 
+Contains labelled sample Python sources for specific dataflow scenarios.
+This is handcrafted mini-projects aimed at verifying precision of the analysis.
+
+The source files contain comments specifying expected issues to be discovered: 
+```python
+os.system(array1)     #FLAW: tainted flow to sink
+```
+
+Additionaly each project contains `expected.txt` file listing all expected problem lines:
+```
+numpy_array_test.py:8 Command injection
+numpy_array_test.py:25 Command injection
+```
+
+`accuracy_tests\real_project` folder contains several copied open-source projects
+
+### `\performance_tests` folder
+
+Contains several large projects to evaluate analysis time mainly.
+
+### `\reports` folder
+
+Contains baseline analysis results produced by target analyzer.
+
+#### Reports format
