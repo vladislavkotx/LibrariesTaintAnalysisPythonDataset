@@ -2,7 +2,6 @@
   "TestPack": "libraries_cases",
   "TotalCases": 4,
   "Time,sec": 43.939,
-  "MaxMemory,Mb": 0,
   "FP,%": 56.25,
   "FN,%": 0.0,
   "Passed,%": 43.75,
@@ -11,7 +10,6 @@
     {
       "Case": "accuracy_tests/libraries_cases/pandas_dataframe",
       "Time,sec": 19.187,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 66.667,
       "FN,%": 0.0,
       "Passed,%": 33.333,
@@ -33,7 +31,6 @@
     {
       "Case": "accuracy_tests/libraries_cases/pandas_series",
       "Time,sec": 8.506,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 60.0,
       "FN,%": 0.0,
       "Passed,%": 40.0,
@@ -56,7 +53,6 @@
     {
       "Case": "accuracy_tests/libraries_cases/pytorch_tensor",
       "Time,sec": 8.631,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 50.0,
       "FN,%": 0.0,
       "Passed,%": 50.0,
@@ -77,7 +73,6 @@
     {
       "Case": "accuracy_tests/libraries_cases/tensorflow_tensor",
       "Time,sec": 7.615,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 40.0,
       "FN,%": 0.0,
       "Passed,%": 60.0,

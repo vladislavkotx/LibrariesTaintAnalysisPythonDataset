@@ -2,7 +2,6 @@
   "TestPack": "basic_cases",
   "TotalCases": 5,
   "Time,sec": 35.841,
-  "MaxMemory,Mb": 0,
   "FP,%": 61.905,
   "FN,%": 0.0,
   "Passed,%": 38.095,
@@ -11,7 +10,6 @@
     {
       "Case": "accuracy_tests/basic_cases/dict",
       "Time,sec": 7.237,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 66.667,
       "FN,%": 0.0,
       "Passed,%": 33.333,
@@ -27,7 +25,6 @@
     {
       "Case": "accuracy_tests/basic_cases/list",
       "Time,sec": 7.132,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 80.0,
       "FN,%": 0.0,
       "Passed,%": 20.0,
@@ -45,7 +42,6 @@
     {
       "Case": "accuracy_tests/basic_cases/numpy_array",
       "Time,sec": 7.213,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 50.0,
       "FN,%": 0.0,
       "Passed,%": 50.0,
@@ -62,7 +58,6 @@
     {
       "Case": "accuracy_tests/basic_cases/set",
       "Time,sec": 7.02,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 75.0,
       "FN,%": 0.0,
       "Passed,%": 25.0,
@@ -79,7 +74,6 @@
     {
       "Case": "accuracy_tests/basic_cases/tuple",
       "Time,sec": 7.239,
-      "MaxMemory,Mb": 0.0,
       "FP,%": 40.0,
       "FN,%": 0.0,
       "Passed,%": 60.0,

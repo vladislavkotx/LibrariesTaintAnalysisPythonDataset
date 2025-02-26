@@ -1,0 +1,34 @@
+{
+  "TestPack": "ccxt-master",
+  "TotalCases": 1,
+  "Time,sec": 1142.519,
+  "FP,%": 0.0,
+  "FN,%": 0.0,
+  "Passed,%": 100.0,
+  "Defects N": 11,
+  "PackCases": [
+    {
+      "Case": "performance_tests/ccxt-master",
+      "Time,sec": 1142.519,
+      "FP,%": 0.0,
+      "FN,%": 0.0,
+      "Passed,%": 100.0,
+      "Defects N": 11,
+      "Defects": [
+        "file:/performance_tests/ccxt-master/ccxt-master/python/ccxt/static_dependencies/ethereum/abi/decoding.py:521 Format information leak\n",
+        "file:/performance_tests/ccxt-master/ccxt-master/examples/py/arbitrage-pairs.py:120 Format information leak\n",
+        "file:/performance_tests/ccxt-master/ccxt-master/python/ccxt/static_dependencies/lark/lark.py:342 Deserialization injection\n",
+        "file:/performance_tests/ccxt-master/ccxt-master/python/ccxt/static_dependencies/ethereum/abi/decoding.py:307 Format information leak\n",
+        "file:/performance_tests/ccxt-master/ccxt-master/python/ccxt/static_dependencies/lark/tools/nearley.py:125 Path manipulation\n",
+        "file:/performance_tests/ccxt-master/ccxt-master/python/qa.py:8 Command injection\n",
+        "file:/performance_tests/ccxt-master/ccxt-master/python/ccxt/static_dependencies/lark/lark.py:340 Deserialization injection\n",
+        "file:/performance_tests/ccxt-master/ccxt-master/python/ccxt/static_dependencies/sympy/external/importtools.py:21 Code injection\n",
+        "file:/performance_tests/ccxt-master/ccxt-master/python/ccxt/static_dependencies/ethereum/abi/decoding.py:531 Format information leak\n",
+        "file:/performance_tests/ccxt-master/ccxt-master/python/ccxt/static_dependencies/lark/lark.py:528 Deserialization injection\n",
+        "file:/performance_tests/ccxt-master/ccxt-master/examples/py/arbitrage-pairs.py:128 Format information leak\n"
+      ],
+      "Files": 1093,
+      "LOC": 713190
+    }
+  ]
+}
